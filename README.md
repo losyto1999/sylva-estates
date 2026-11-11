@@ -130,7 +130,7 @@ Configurazione, una sola volta: *Settings → Pages → Build and deployment →
 
 ## Lingua
 
-La lingua viene scelta in quest'ordine: il parametro `?lng=it` / `?lng=en` nell'URL, poi la scelta fatta con il selettore (salvata nel `localStorage` alla chiave `sylva-estates:lang`), infine la lingua del browser. Se nessuna corrisponde, il sito è in italiano. Quando si cambia lingua con il selettore, un eventuale `?lng=` viene tolto dall'URL.
+La lingua viene scelta in quest'ordine: il parametro `?lng=it` / `?lng=en` nell'URL, poi la scelta fatta con il selettore (salvata nel `localStorage` alla chiave `sylva-estates:lang`), infine la lingua del browser. Il parametro `lng`, una volta letto e salvato, viene tolto dall'URL (`src/i18n/index.ts`): l'indirizzo resta pulito e, ricaricando, non ha la precedenza su una scelta fatta poi con il selettore. Se nessuna corrisponde, il sito è in italiano. Quando si cambia lingua con il selettore, un eventuale `?lng=` viene tolto dall'URL.
 
 I testi stanno in `src/locales/it.json` e `src/locales/en.json` (namespace `sylva`), con la stessa struttura di chiavi. `data/properties.ts` contiene solo i dati: sommario e descrizione di ogni villa sono alla chiave `properties.<slug>`, la didascalia di ogni foto in `photos.<casa-N-M>`. I nomi delle ville sono nomi propri e restano uguali. Prezzi e numeri sono formattati con `Intl`; l'inglese usa `en-GB`, con l'euro (`€2,350,000`). Slug, URL e parametri dei filtri (`?paesaggio=ulivi`) restano italiani in tutte le lingue.
 
