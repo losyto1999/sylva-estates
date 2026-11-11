@@ -1,0 +1,389 @@
+{
+    "numbers": {
+        "5": "five"
+    },
+    "header": {
+        "nav": "Main",
+        "language": "Language",
+        "home": "Home",
+        "villas": "Villas",
+        "agency": "Agency",
+        "book": "Book a visit"
+    },
+    "footer": {
+        "vat": "VAT no. [NUMBER]",
+        "privacy": "Privacy"
+    },
+    "landscapes": {
+        "ulivi": "Olive groves",
+        "mare": "Sea",
+        "colline": "Hills"
+    },
+    "home": {
+        "kicker": "Villas among olive groves, pine woods and hills",
+        "title": "The sun, the land, and a house in the middle.",
+        "seeVillas": "See the villas",
+        "book": "Book a visit",
+        "discover": "Discover the villas",
+        "territories": "The landscapes",
+        "closing": "Want to see a villa in person?",
+        "closingButton": "Book a visit →"
+    },
+    "territories": {
+        "ulivi": {
+            "title": "Among the olive trees",
+            "text": "Farmhouses and masserie in the middle of olive groves, some still productive and with trees more than three hundred years old.",
+            "cta": "Villas among the olive trees"
+        },
+        "mare": {
+            "title": "Near the sea",
+            "text": "Gardens with pines and palms, and rooms that open onto the view of the sea.",
+            "cta": "Villas near the sea"
+        },
+        "colline": {
+            "title": "On the hills",
+            "text": "Vineyards, fields and woods, with white gravel roads climbing up to the house and an open view over the valley.",
+            "cta": "Villas on the hills"
+        }
+    },
+    "carousel": {
+        "previous": "Previous houses",
+        "next": "Next houses",
+        "hint": "Swipe sideways to see the others"
+    },
+    "listings": {
+        "title": "The villas",
+        "empty": "No villa matches the selected filters.",
+        "reset": "Reset filters",
+        "count_one": "{{count}} villa",
+        "count_other": "{{count}} villas"
+    },
+    "filters": {
+        "price": "Price",
+        "rooms": "Rooms",
+        "landscape": "Landscape",
+        "landscapeSelected": "Landscape: {{list}}",
+        "pool": "With pool",
+        "reset": "Reset filters",
+        "from": "From",
+        "to": "To",
+        "enterNumber": "Enter a number",
+        "invalidNumber": "Invalid number",
+        "orderError": "\"From\" can't be higher than \"To\"",
+        "clear": "Clear",
+        "apply": "Apply"
+    },
+    "property": {
+        "back": "← All villas",
+        "area": "Floor area",
+        "rooms": "Rooms",
+        "bathrooms": "Bathrooms",
+        "land": "Land",
+        "pool": "Pool",
+        "yes": "Yes",
+        "tabs": "Villa information",
+        "overview": "Overview",
+        "spaces": "Spaces",
+        "asideTitle": "Like it? Come and see it.",
+        "asideText": "Private visits with a consultant, weekends included.",
+        "asideButton": "Book the visit"
+    },
+    "gallery": {
+        "open": "Open photo {{index}} of {{total}}",
+        "all": "View all photos ({{total}})"
+    },
+    "lightbox": {
+        "label": "Photos of {{name}}",
+        "close": "Close the gallery",
+        "previous": "Previous photo",
+        "next": "Next photo"
+    },
+    "agency": {
+        "title": "We know every house we sell inside out",
+        "intro": "Sylva Estates sells villas set in nature: farmhouses, estates, woodland retreats. We go with you from the first phone call to the keys, and afterwards too.",
+        "rootsTitle": "Why nature",
+        "roots": [
+            "More and more people tell us the same thing: the city feels cramped. They work from home, have small children or ageing parents, and realise they spend their days between an apartment and an office without ever seeing a horizon.",
+            "We understood it early: someone looking for a house in the countryside isn't only looking for square metres. They're looking for quiet in the evening, different air in the morning, a garden where children can play outdoors until dusk, a vegetable patch, a table laid outside from April to October, with the scent of freshly cut grass.",
+            "That's why we deal only with houses like these, and we know them one by one: which side the sun hits, where the water comes from, how long it takes to get to the village."
+        ],
+        "howTitle": "How we work",
+        "howIntro": "{{number}} steps, always with the same person beside you, from the first phone call to after you get the keys.",
+        "talkTitle": "Prefer to talk it over?",
+        "talkText": "Call or write to us: we answer ourselves, not a form.",
+        "steps": [
+            {
+                "title": "You tell us what you're looking for",
+                "text": "A phone call or a visit to the agency: what kind of house, in which landscape, how much greenery, whether you need a pool, how many rooms. We don't make you fill in forms.",
+                "outcome": "A clear idea of what to look for, and what not to."
+            },
+            {
+                "title": "We suggest a few villas",
+                "text": "From the list we pick the ones that make sense for you and explain the strengths and limits of each, including any work that needs doing.",
+                "outcome": "A short selection, not a catalogue."
+            },
+            {
+                "title": "You visit them with a consultant",
+                "text": "Visits are private, with a consultant who knows the house and the land, weekends included. You walk around the garden and look at the house from the outside as well as the inside.",
+                "outcome": "All the time you need, with no other visitors."
+            },
+            {
+                "title": "We follow the negotiation through to the deed",
+                "text": "We follow the purchase in several languages and coordinate the notary, translations and tax advice, so you don't have to find them yourself.",
+                "outcome": "A single point of contact until the keys."
+            },
+            {
+                "title": "We stay on after the deed",
+                "text": "We can point you to trusted craftsmen, gardeners and caretakers for your new home, from the roof to the garden.",
+                "outcome": "Contacts we trust, when you need them."
+            }
+        ],
+        "sheetTitle": "What you'll find on every listing",
+        "sheetIntro": "Every villa has the same information, written the same way, so you can compare them without having to interpret anything.",
+        "sheet": [
+            {
+                "title": "Price and floor area",
+                "text": "The price in euros and the commercial square metres of the house."
+            },
+            {
+                "title": "Rooms and bathrooms",
+                "text": "We count rooms, not bedrooms: a nine-room house may have four bedrooms."
+            },
+            {
+                "title": "The greenery",
+                "text": "The hectares of land around the house: olive grove, woodland, meadow."
+            },
+            {
+                "title": "The description",
+                "text": "How the house is laid out, what's around it and what to know before visiting, including any work that needs doing."
+            },
+            {
+                "title": "The visit",
+                "text": "From every listing you can ask for a private visit with a consultant, weekends included."
+            },
+            {
+                "title": "Photos and pool",
+                "text": "The photos open full screen, and the pool, if there is one, has its own entry."
+            }
+        ],
+        "seeVillas": "See the villas",
+        "faqTitle": "Frequently asked questions",
+        "faq": [
+            {
+                "question": "Can I visit a villa at the weekend?",
+                "answer": "Yes. Visits are private, with a consultant, on Saturdays and Sundays too."
+            },
+            {
+                "question": "Do you work with international buyers?",
+                "answer": "Yes: we follow the purchase in several languages and coordinate the notary, translations and tax advice."
+            },
+            {
+                "question": "What happens after the deed is signed?",
+                "answer": "We don't leave you alone with the house: we can point you to trusted craftsmen, gardeners and caretakers."
+            },
+            {
+                "question": "How do I find the villas that suit me?",
+                "answer": "On the Villas page you can filter by price, rooms, landscape (olive groves, sea, hills) and pool. If you'd like advice, give us a call."
+            },
+            {
+                "question": "How do I book a visit?",
+                "answer": "Phone or write to us: we'll suggest days and times and tell you what to look at beforehand."
+            }
+        ],
+        "contactTitle": "Let's talk in person",
+        "contactButton": "Book a visit →"
+    },
+    "properties": {
+        "casale-delle-querce": {
+            "summary": "An eighteenth-century farmhouse, restored without erasing its history, surrounded by three hectares of olive groves and woodland.",
+            "description": [
+                "The stone walls, chestnut beams and terracotta floors are the original ones: the restoration, finished in 2021, redid the utilities and roofing and left everything else as it was. The rooms are large and stay cool in summer, with small windows on the north side and a wide porch on the south.",
+                "Around the house there are a hundred and eighty olive trees that still produce and, beyond the dry-stone wall, an oak wood that runs down to the stream. The pool was made from an old irrigation tank: you can't see it from the road.",
+                "The heating is geothermal, which is why a house of this age reaches energy class A1."
+            ]
+        },
+        "villa-glicine": {
+            "summary": "A 1911 Art Nouveau villa, with its façade and eight-thousand-square-metre park still as they were built, and interiors renovated by the previous owner.",
+            "description": [
+                "The villa was built for a family of industrialists and has changed hands only twice since. The previous owner renovated every interior space — bathrooms, kitchen and the open, bright living area — and created a heated indoor pool in the service rooms.",
+                "The park has trees more than a century old, a thirty-metre wisteria pergola and a small wrought-iron greenhouse. A side gate leads straight out onto the country road.",
+                "The energy class stays low: the walls and windows are the original 1911 ones, and the new systems alone aren't enough to change that."
+            ]
+        },
+        "tenuta-la-sughereta": {
+            "summary": "Twenty-four hectares of vineyard, cork oaks and scrub, with a nineteenth-century manor house and a cellar that still presses the estate's grapes.",
+            "description": [
+                "The manor house has two floors and a small tower, and looks down over the vineyard. Next to it are the winery, with concrete tanks from the 1950s and a new barrel room, and two guest houses made from the old stables.",
+                "Eight hectares are productive vineyard; the rest is cork-oak woodland and scrub, crossed by white gravel tracks that you can walk or ride.",
+                "The estate is sold with the winery and the wine brand, or just the residential part: we'll discuss it in person."
+            ]
+        },
+        "casa-nel-castagneto": {
+            "summary": "A stone house in the middle of a chestnut grove, with vaulted brick ceilings and large windows onto the garden, ten minutes' walk from the village.",
+            "description": [
+                "It was the home of whoever looked after the chestnut grove: thick stone walls and, in the living area, brick vaults with large windows onto the garden. It was renovated in the early 2000s, with simple materials in the kitchen and bedrooms.",
+                "The hectare and a half of land is almost all fruiting chestnut grove. In autumn the chestnuts are still gathered, and the stone drying house next to the house still works."
+            ]
+        },
+        "villa-dei-lecci": {
+            "summary": "A 2019 two-storey villa among the holm oaks and pines of a hillside, with south-facing windows opening onto the pool.",
+            "description": [
+                "The villa follows the slope of the hill, with the main rooms opening onto the garden through large windows. The kitchen has stayed more classic in character, while the living room has an area on a slightly raised level.",
+                "It is an A4-class house: heat pump, photovoltaics with storage, rainwater harvesting for irrigation. In summer the holm oaks and pines around the house shade it and air conditioning is hardly needed.",
+                "The land, twelve thousand square metres, is left almost entirely as woodland; near the house there are a lawn and the pool."
+            ]
+        },
+        "podere-ginestra": {
+            "summary": "An early-twentieth-century farmstead with six hectares of fields, where lavender and broom bloom together at the start of summer.",
+            "description": [
+                "The house is the typical farmstead type: on the ground floor the old stables and storeroom, now kitchen and living room, and on the first floor the bedrooms. It is lived in all year round and well kept, but the systems and windows are about thirty years old.",
+                "The six hectares are partly arable land, leased to a neighbouring farm, and partly lavender. The lease expires in two years and can be renewed or ended."
+            ]
+        },
+        "cascina-dei-tigli": {
+            "summary": "A nineteenth-century courtyard farmhouse, with an avenue of lime trees and twelve hectares of meadows and poplar groves: large, and partly in need of restoration.",
+            "description": [
+                "Around the courtyard are the main house, lived in and in good condition, the farmhands' houses and a long barn with a porch. The latter need restoring and could become apartments or a guest accommodation business, if the municipality allows it.",
+                "Energy class F applies to the main house; the other buildings have no utilities. The barn roof was redone in 2018.",
+                "The avenue of lime trees, four hundred metres long, leads from the road to the courtyard."
+            ]
+        },
+        "villa-della-serra": {
+            "summary": "A late-nineteenth-century villa with an iron-and-glass greenhouse at the end of the garden, restored together with the house.",
+            "description": [
+                "The greenhouse, twenty metres long, was dismantled, restored and rebuilt in 2016. In winter it shelters citrus and tropical plants; in summer it is used as a dining room.",
+                "The villa has ten rooms on three floors and a rooftop terrace from which you can see the whole garden. The ground floor was restored along with the greenhouse; the upper floors are in good condition but have systems that need updating."
+            ]
+        },
+        "rifugio-del-faggio": {
+            "summary": "A nineteenth-century stone farmhouse at the edge of a beech wood, renovated with light walls and exposed beams, with the pool among the willows.",
+            "description": [
+                "The restoration left the wooden beams exposed and put light-coloured walls throughout the house; a small stone shrine looks onto the terrace. The kitchen is open onto the living room, and the underfloor heating is run by a heat pump.",
+                "The two hectares of land are beech wood, with a path that starts from the garden and the pool, among the willows, just below the house. In winter the road is cleared of snow right up to the gate."
+            ]
+        },
+        "villa-nella-pineta": {
+            "summary": "A two-storey country villa, with exposed beams in almost every room and a pool overlooking the valley.",
+            "description": [
+                "The house is built of stone, with a terracotta-tiled roof and wooden shutters; around it are well-kept hedges, a large lawn and the pool, a step below the garden. Inside, the wooden beams are exposed in the living room, in the kitchen and in the attic bedroom, which has a small mezzanine overlooking the stairs.",
+                "The G class is due to the single-glazed windows and the diesel boiler: improving it takes a major intervention, which however doesn't touch the architecture. The land, nine thousand square metres, is mostly lawn and tall trees."
+            ]
+        },
+        "masseria-degli-ulivi": {
+            "summary": "A seventeenth-century fortified masseria, with its tower still standing and eight hectares of centuries-old olive trees around it.",
+            "description": [
+                "The watchtower is the oldest part; the low building around the courtyard was added in the eighteenth century. The restoration, finished in 2020, created nine bedrooms with bathrooms, designed for a large family or for a guest accommodation business.",
+                "There are about eight hundred olive trees, some more than three hundred years old, and the oil is now sold to a local mill. In the courtyard there is a stone pool, hidden behind the perimeter wall.",
+                "Class B is down to the photovoltaics on the roof of the former stables and the heat pump."
+            ]
+        },
+        "casa-della-limonaia": {
+            "summary": "An eighteenth-century villa with an Italian garden and an arched lemon house, where the pots of citrus are moved for the winter.",
+            "description": [
+                "The garden is small, four thousand square metres, but it has stayed as in the original design: box hedges, gravel paths, a pond at the centre and a hundred and twenty pots of lemon trees that spend October to April in the lemon house.",
+                "The villa has been restored in stages and is ready to live in. On the ground floor the rooms open one after another onto the garden; on the first floor are the bedrooms, with vaulted ceilings."
+            ]
+        },
+        "mulino-del-rio": {
+            "summary": "An eighteenth-century water mill turned into a home, with the wheel and millstones still in place, beside a stream that flows all year round.",
+            "description": [
+                "The millstones have stayed on the ground floor, in the living room, and the wheel still turns: a small turbine produces part of the house's energy. A heat pump does the rest, and with insulation fitted on the inside the house reached energy class A2.",
+                "The two and a half hectares of land follow the stream: a lawn near the house, then alders and hazels down to the boundary."
+            ]
+        },
+        "villa-del-pioppeto": {
+            "summary": "An early-twentieth-century villa, with an ivy-covered loggia, a small lake with a little bridge and a wisteria pergola in the garden.",
+            "description": [
+                "The loggia runs along the whole ground floor, under the bedrooms with their balconies; around it, a large lawn with poplars and cedars reaches the little lake, crossed by a small bridge.",
+                "Inside, the wooden beams are left exposed almost everywhere — in the living room, with its fireplace, in the kitchen and in the bedrooms, one of which opens onto the terrace through arched glass doors.",
+                "The wisteria pergola, near the lake, is the coolest spot in the garden in summer. The pool is just beyond the lawn, among the willows."
+            ]
+        }
+    },
+    "photos": {
+        "casa-1-1": "The house seen from the olive grove, with the pool in the foreground",
+        "casa-1-2": "Aerial view of the house among the olive trees and the woods",
+        "casa-1-6": "The living room, with the fireplace and exposed beams",
+        "casa-1-4": "The dining room, with the brick arch leading to the kitchen",
+        "casa-1-5": "One of the bedrooms, with its terracotta floor",
+        "casa-1-3": "One of the bathrooms",
+        "casa-13-1": "The villa seen from the garden, with the arched windows of the ground floor",
+        "casa-13-2": "The indoor pool, heated",
+        "casa-13-3": "The kitchen, recently redone",
+        "casa-13-4": "One of the bathrooms",
+        "casa-13-5": "The living room, open to the dining room and the garden",
+        "casa-13-6": "One of the bedrooms, with arched doors onto the terrace",
+        "casa-8-1": "The estate seen from above, with the vineyard and the pool",
+        "casa-8-2": "The vineyard running down towards the valley",
+        "casa-8-3": "The manor house and the pool, up close",
+        "casa-8-4": "The living room, with arched windows onto the countryside",
+        "casa-8-5": "One of the bedrooms, with a view of the hills",
+        "casa-8-6": "The dining room, with the fireplace",
+        "casa-4-1": "The house, with its outside staircase",
+        "casa-4-2": "The pool, among the hedges",
+        "casa-4-3": "One of the bedrooms",
+        "casa-4-4": "The living room, with the brick arch and the window onto the garden",
+        "casa-4-5": "The kitchen",
+        "casa-4-6": "The dining room",
+        "casa-6-1": "The villa among the trees, with the pool and the solar panel",
+        "casa-6-2": "Aerial view, with the terraced garden",
+        "casa-6-3": "The pool porch",
+        "casa-6-4": "The kitchen",
+        "casa-6-5": "The living room, with the grand staircase",
+        "casa-6-6": "One of the bedrooms, with arched doors onto the terrace",
+        "casa-11-1": "The house seen from above, among the fields",
+        "casa-11-2": "The house, with its green shutters",
+        "casa-11-3": "The porch, set for lunch outdoors",
+        "casa-11-4": "One of the bedrooms",
+        "casa-11-5": "The living room, with the brick arch",
+        "casa-11-6": "The kitchen",
+        "casa-2-1": "The farmhouse seen from above, with the pool and the surrounding fields",
+        "casa-2-2": "The back of the house, with the porch and the outside staircase",
+        "casa-2-3": "One of the bedrooms",
+        "casa-2-4": "The games room, with the billiard table",
+        "casa-2-5": "The kitchen",
+        "casa-2-6": "The living room",
+        "casa-5-1": "The villa seen from the garden, with the pool",
+        "casa-5-2": "The portico with a view of the sea",
+        "casa-5-3": "The wood-fired oven under the portico",
+        "casa-5-4": "The kitchen",
+        "casa-5-5": "The dining room, with a view of the sea",
+        "casa-5-6": "One of the bedrooms",
+        "casa-9-1": "The house among the trees",
+        "casa-9-2": "The terrace, with the small stone shrine",
+        "casa-9-3": "The pool, seen from above, among the willows",
+        "casa-9-4": "The kitchen, open onto the living room",
+        "casa-9-5": "The living room",
+        "casa-9-6": "One of the bedrooms, with a view of the woods",
+        "casa-12-1": "The villa, seen from the garden",
+        "casa-12-2": "The gazebo in the garden, set for lunch outdoors",
+        "casa-12-3": "The pool, below the level of the garden",
+        "casa-12-4": "The living room",
+        "casa-12-5": "One of the bedrooms, under the roof",
+        "casa-12-6": "The kitchen",
+        "casa-10-1": "The masseria, with its fortified walls and the outdoor oven",
+        "casa-10-2": "The pool, seen from above",
+        "casa-10-3": "The terrace, with a view of the valley",
+        "casa-10-4": "The kitchen, with the brick counter",
+        "casa-10-5": "One of the nine bedrooms",
+        "casa-10-6": "The great hall, with the large brick arch",
+        "casa-7-1": "The villa, with the terraced Italian garden",
+        "casa-7-2": "The pool, among the olive trees",
+        "casa-7-3": "The great hall, with the stone fireplace",
+        "casa-7-4": "One of the bedrooms",
+        "casa-7-5": "The lemon house, set up as a dining room",
+        "casa-7-6": "The kitchen",
+        "casa-3-1": "The house, with the stream in the background",
+        "casa-3-2": "The pool",
+        "casa-3-3": "The barn next to the house",
+        "casa-3-4": "The kitchen",
+        "casa-3-5": "The dining room",
+        "casa-3-6": "One of the bedrooms, with a headboard made from an old door",
+        "casa-14-1": "The villa, seen from the garden",
+        "casa-14-2": "The pool, among the willows",
+        "casa-14-3": "The wisteria pergola, with the little lake in the background",
+        "casa-14-4": "The living room, with the fireplace and exposed beams",
+        "casa-14-5": "The kitchen, with exposed beams",
+        "casa-14-6": "The bedroom, towards the arched glass doors onto the terrace"
+    }
+}

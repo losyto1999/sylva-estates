@@ -1,0 +1,389 @@
+{
+    "numbers": {
+        "5": "cinque"
+    },
+    "header": {
+        "nav": "Principale",
+        "language": "Lingua",
+        "home": "Home",
+        "villas": "Ville",
+        "agency": "Agenzia",
+        "book": "Prenota una visita"
+    },
+    "footer": {
+        "vat": "P.IVA [NUMERO]",
+        "privacy": "Privacy"
+    },
+    "landscapes": {
+        "ulivi": "Ulivi",
+        "mare": "Mare",
+        "colline": "Colline"
+    },
+    "home": {
+        "kicker": "Ville tra ulivi, pinete e colline",
+        "title": "Il sole, la terra, e una casa in mezzo.",
+        "seeVillas": "Guarda le ville",
+        "book": "Prenota una visita",
+        "discover": "Scopri le ville",
+        "territories": "I territori",
+        "closing": "Vuoi vedere una villa dal vivo?",
+        "closingButton": "Prenota una visita →"
+    },
+    "territories": {
+        "ulivi": {
+            "title": "Tra gli ulivi",
+            "text": "Case coloniche e masserie in mezzo agli uliveti, alcuni ancora produttivi e con piante di oltre trecento anni.",
+            "cta": "Ville tra gli ulivi"
+        },
+        "mare": {
+            "title": "Vicino al mare",
+            "text": "Giardini con pini e palme, e stanze che si aprono sulla vista del mare.",
+            "cta": "Ville vicino al mare"
+        },
+        "colline": {
+            "title": "Sulle colline",
+            "text": "Vigne, campi e boschi, con strade bianche che salgono fino alla casa e la vista aperta sulla valle.",
+            "cta": "Ville sulle colline"
+        }
+    },
+    "carousel": {
+        "previous": "Case precedenti",
+        "next": "Case successive",
+        "hint": "Scorri di lato per vedere le altre"
+    },
+    "listings": {
+        "title": "Le ville",
+        "empty": "Nessuna villa corrisponde ai filtri scelti.",
+        "reset": "Azzera i filtri",
+        "count_one": "{{count}} villa",
+        "count_other": "{{count}} ville"
+    },
+    "filters": {
+        "price": "Prezzo",
+        "rooms": "Locali",
+        "landscape": "Paesaggio",
+        "landscapeSelected": "Paesaggio: {{list}}",
+        "pool": "Con piscina",
+        "reset": "Azzera i filtri",
+        "from": "Da",
+        "to": "A",
+        "enterNumber": "Inserisci cifra",
+        "invalidNumber": "Cifra non valida",
+        "orderError": "\"Da\" non può superare \"A\"",
+        "clear": "Azzera",
+        "apply": "Applica"
+    },
+    "property": {
+        "back": "← Tutte le ville",
+        "area": "Superficie",
+        "rooms": "Locali",
+        "bathrooms": "Bagni",
+        "land": "Terreno",
+        "pool": "Piscina",
+        "yes": "Sì",
+        "tabs": "Informazioni sulla villa",
+        "overview": "Panoramica",
+        "spaces": "Spazi",
+        "asideTitle": "Ti piace? Vieni a vederla.",
+        "asideText": "Visite private con un consulente, anche nel weekend.",
+        "asideButton": "Prenota la visita"
+    },
+    "gallery": {
+        "open": "Apri la foto {{index}} di {{total}}",
+        "all": "Visualizza tutte le foto ({{total}})"
+    },
+    "lightbox": {
+        "label": "Foto di {{name}}",
+        "close": "Chiudi la galleria",
+        "previous": "Foto precedente",
+        "next": "Foto successiva"
+    },
+    "agency": {
+        "title": "Conosciamo a fondo ogni casa che vendiamo",
+        "intro": "Sylva Estates vende ville immerse nella natura: case coloniche, tenute, rifugi nel bosco. Ti accompagniamo dalla prima telefonata alle chiavi, e anche dopo.",
+        "rootsTitle": "Perché la natura",
+        "roots": [
+            "Sempre più persone ci raccontano la stessa cosa: in città si sta stretti. Lavorano da casa, hanno figli piccoli o genitori che invecchiano, e si accorgono di passare le giornate tra un appartamento e un ufficio senza mai vedere un orizzonte.",
+            "Noi l’abbiamo capito presto: chi cerca una casa in campagna non cerca solo metri quadri. Cerca il silenzio la sera, l’aria diversa al mattino, un giardino dove i bambini possono giocare all’aperto fino a sera, un orto, una tavola apparecchiata fuori da aprile a ottobre, con il profumo dell’erba tagliata.",
+            "Per questo ci occupiamo soltanto di case così, e le conosciamo una per una: da che parte batte il sole, da dove arriva l’acqua, quanto ci vuole per arrivare al paese."
+        ],
+        "howTitle": "Come lavoriamo",
+        "howIntro": "{{number}} passaggi, sempre con la stessa persona accanto, dalla prima telefonata a dopo le chiavi.",
+        "talkTitle": "Preferisci parlarne a voce?",
+        "talkText": "Chiamaci o scrivici: ti rispondiamo noi, non un modulo.",
+        "steps": [
+            {
+                "title": "Ci racconti cosa cerchi",
+                "text": "Una telefonata o una visita in agenzia: che tipo di casa, in quale paesaggio, quanto verde, se serve la piscina, quanti locali. Non ti facciamo compilare moduli.",
+                "outcome": "Un’idea chiara di cosa cercare, e di cosa no."
+            },
+            {
+                "title": "Ti proponiamo poche ville",
+                "text": "Dall’elenco scegliamo quelle che hanno senso per te e ti spieghiamo pregi e limiti di ciascuna, compresi i lavori da fare quando ce ne sono.",
+                "outcome": "Una selezione ristretta, non un catalogo."
+            },
+            {
+                "title": "Le visiti con un consulente",
+                "text": "Le visite sono private, con un consulente che conosce la casa e il terreno, anche nel weekend. Si cammina nel giardino e si guarda la casa da fuori, oltre che da dentro.",
+                "outcome": "Tutto il tempo che serve, senza altri visitatori."
+            },
+            {
+                "title": "Seguiamo la trattativa e il rogito",
+                "text": "Seguiamo l’acquisto in più lingue e coordiniamo notaio, traduzioni e consulenza fiscale, così non devi cercarli da solo.",
+                "outcome": "Un solo interlocutore fino alle chiavi."
+            },
+            {
+                "title": "Restiamo dopo il rogito",
+                "text": "Possiamo indicarti artigiani, giardinieri e gestori di fiducia per la tua nuova casa, dal tetto al giardino.",
+                "outcome": "Contatti di cui ci fidiamo, quando servono."
+            }
+        ],
+        "sheetTitle": "Cosa trovi in ogni scheda",
+        "sheetIntro": "Ogni villa ha le stesse informazioni, scritte allo stesso modo, così puoi confrontarle senza doverle interpretare.",
+        "sheet": [
+            {
+                "title": "Prezzo e superficie",
+                "text": "Il prezzo in euro e i metri quadrati commerciali della casa."
+            },
+            {
+                "title": "Locali e bagni",
+                "text": "Contiamo i locali, non le camere: una casa da nove locali può avere quattro camere da letto."
+            },
+            {
+                "title": "Il verde",
+                "text": "Gli ettari di terreno che stanno intorno alla casa: uliveto, bosco, prato."
+            },
+            {
+                "title": "La descrizione",
+                "text": "Com’è fatta la casa, cosa c’è intorno e cosa sapere prima di visitarla, compresi i lavori da fare quando ce ne sono."
+            },
+            {
+                "title": "La visita",
+                "text": "Da ogni scheda chiedi una visita privata con un consulente, anche nel weekend."
+            },
+            {
+                "title": "Foto e piscina",
+                "text": "Le foto si aprono a schermo intero, e la piscina, se c’è, ha una scheda a parte."
+            }
+        ],
+        "seeVillas": "Guarda le ville",
+        "faqTitle": "Domande frequenti",
+        "faq": [
+            {
+                "question": "Posso visitare una villa nel weekend?",
+                "answer": "Sì. Le visite sono private, con un consulente, anche il sabato e la domenica."
+            },
+            {
+                "question": "Seguite anche clienti che non parlano italiano?",
+                "answer": "Sì: seguiamo l’acquisto in più lingue e coordiniamo notaio, traduzioni e consulenza fiscale."
+            },
+            {
+                "question": "Cosa succede dopo il rogito?",
+                "answer": "Non ti lasciamo da solo con la casa: possiamo indicarti artigiani, giardinieri e gestori di fiducia."
+            },
+            {
+                "question": "Come trovo le ville adatte a me?",
+                "answer": "Nella pagina Ville puoi filtrare per prezzo, locali, paesaggio (ulivi, mare, colline) e piscina. Se vuoi un consiglio, chiamaci."
+            },
+            {
+                "question": "Come prenoto una visita?",
+                "answer": "Telefonaci o scrivici: ti proponiamo giorni e orari e ti diciamo cosa vedere prima."
+            }
+        ],
+        "contactTitle": "Parliamone di persona",
+        "contactButton": "Prenota una visita →"
+    },
+    "properties": {
+        "casale-delle-querce": {
+            "summary": "Una casa colonica del Settecento, restaurata senza cancellarne la storia, circondata da tre ettari di uliveti e bosco.",
+            "description": [
+                "Le mura in pietra, le travi di castagno e i pavimenti in cotto sono quelli originali: il restauro, finito nel 2021, ha rifatto impianti e coperture e ha lasciato il resto com’era. Le stanze sono grandi e d’estate restano fresche, con finestre piccole sul lato nord e un portico largo sul lato sud.",
+                "Intorno alla casa ci sono centottanta ulivi ancora produttivi e, oltre il muro a secco, un bosco di querce che scende fino al torrente. La piscina è stata ricavata in una vecchia vasca per l’irrigazione: dalla strada non si vede.",
+                "Il riscaldamento è geotermico, ed è per questo che una casa di quest’età arriva in classe A1."
+            ]
+        },
+        "villa-glicine": {
+            "summary": "Una villa liberty del 1911, con la facciata e il parco di ottomila metri quadri rimasti quelli d’origine, e gli interni rinnovati dal proprietario precedente.",
+            "description": [
+                "La villa fu costruita per una famiglia di industriali e da allora ha cambiato proprietario solo due volte. Il proprietario precedente ha rinnovato tutti gli ambienti interni — bagni, cucina e la zona giorno, aperta e luminosa — e ha ricavato una piscina interna riscaldata negli ambienti di servizio.",
+                "Il parco ha alberi di oltre un secolo, una pergola di glicine lunga trenta metri e una piccola serra in ferro battuto. Da un cancello secondario si esce direttamente sulla strada di campagna.",
+                "La classe energetica resta bassa: muri e infissi sono quelli originali del 1911, e gli impianti nuovi non bastano da soli a cambiarla."
+            ]
+        },
+        "tenuta-la-sughereta": {
+            "summary": "Ventiquattro ettari tra vigna, sughere e macchia, con una casa padronale dell’Ottocento e una cantina che lavora ancora le uve della tenuta.",
+            "description": [
+                "La casa padronale ha due piani e una torretta, e guarda la vigna dall’alto. Accanto ci sono la cantina, con le vasche in cemento degli anni Cinquanta e una barricaia nuova, e due case per gli ospiti ricavate dalle vecchie stalle.",
+                "Otto ettari sono vigneto in produzione; il resto è bosco di sughere e macchia, attraversato da strade bianche che si percorrono a piedi o a cavallo.",
+                "La tenuta si vende con la cantina e il marchio del vino, oppure solo la parte residenziale: se ne parla di persona."
+            ]
+        },
+        "casa-nel-castagneto": {
+            "summary": "Una casa di pietra nel mezzo di un castagneto, con soffitti a volta in mattoni e ampie vetrate sul giardino, a dieci minuti a piedi dal paese.",
+            "description": [
+                "Era la casa di chi curava il castagneto: muri di pietra spessi e, nella zona giorno, volte in mattoni con grandi vetrate sul giardino. È stata ristrutturata nei primi anni Duemila, con materiali semplici in cucina e nelle camere.",
+                "L’ettaro e mezzo di terreno è quasi tutto castagneto da frutto. In autunno le castagne si raccolgono ancora, e l’essiccatoio in pietra accanto alla casa funziona."
+            ]
+        },
+        "villa-dei-lecci": {
+            "summary": "Una villa del 2019 su due piani, tra i lecci e i pini di una collina, con le vetrate rivolte a sud verso la piscina.",
+            "description": [
+                "La villa segue il pendio della collina, con le stanze principali aperte sul giardino attraverso grandi vetrate. La cucina è rimasta di impronta più classica, mentre il soggiorno ha una zona su un livello leggermente rialzato.",
+                "È una casa in classe A4: pompa di calore, fotovoltaico con accumulo, recupero dell’acqua piovana per l’irrigazione. D’estate i lecci e i pini intorno fanno ombra alla casa e l’aria condizionata serve poco.",
+                "Il terreno, dodicimila metri quadri, è lasciato quasi tutto a bosco; vicino alla casa ci sono un prato e la piscina."
+            ]
+        },
+        "podere-ginestra": {
+            "summary": "Un podere dei primi del Novecento con sei ettari di campi, dove all’inizio dell’estate fioriscono insieme lavanda e ginestre.",
+            "description": [
+                "La casa è quella tipica dei poderi: al piano terra le vecchie stalle e il magazzino, oggi cucina e soggiorno, al primo piano le camere. È abitata tutto l’anno e tenuta bene, ma impianti e infissi hanno una trentina d’anni.",
+                "I sei ettari sono in parte seminativo, dato in affitto a un’azienda agricola vicina, e in parte lavanda. Il contratto d’affitto scade tra due anni e si può rinnovare o chiudere."
+            ]
+        },
+        "cascina-dei-tigli": {
+            "summary": "Una cascina a corte dell’Ottocento, con un viale di tigli e dodici ettari di prati e pioppeti: grande, e in parte da restaurare.",
+            "description": [
+                "Intorno alla corte ci sono la casa padronale, abitata e in buono stato, le case dei salariati e una lunga barchessa con il portico. Queste ultime sono da restaurare e si prestano a diventare appartamenti o una struttura ricettiva, se il comune lo consente.",
+                "La classe F riguarda la casa padronale; le altre costruzioni non hanno impianti. Il tetto della barchessa è stato rifatto nel 2018.",
+                "Il viale di tigli, lungo quattrocento metri, porta dalla strada alla corte."
+            ]
+        },
+        "villa-della-serra": {
+            "summary": "Una villa di fine Ottocento con una serra in ferro e vetro in fondo al giardino, restaurata insieme alla casa.",
+            "description": [
+                "La serra, lunga venti metri, è stata smontata, restaurata e rimontata nel 2016. D’inverno ospita agrumi e piante tropicali, d’estate si usa come sala da pranzo.",
+                "La villa ha dieci locali su tre piani e un’altana da cui si vede tutto il giardino. Il piano terra è stato restaurato insieme alla serra; i piani superiori sono in buono stato ma hanno impianti da aggiornare."
+            ]
+        },
+        "rifugio-del-faggio": {
+            "summary": "Un casale di pietra dell’Ottocento ai margini di una faggeta, ristrutturato con pareti chiare e travi a vista, con la piscina tra i salici.",
+            "description": [
+                "Il restauro ha lasciato le travi di legno a vista e ha steso pareti chiare su tutta la casa; un piccolo tabernacolo in pietra si affaccia sul terrazzo. La cucina è aperta sul soggiorno, e il riscaldamento a pavimento è mosso da una pompa di calore.",
+                "I due ettari di terreno sono faggeta, con un sentiero che parte dal giardino e la piscina, tra i salici, poco più in basso della casa. D’inverno la strada viene pulita dalla neve fino al cancello."
+            ]
+        },
+        "villa-nella-pineta": {
+            "summary": "Una villa di campagna su due piani, con le travi a vista in quasi tutte le stanze e una piscina affacciata sulla vallata.",
+            "description": [
+                "La casa è in pietra, con il tetto in coppi e le persiane in legno; intorno ci sono siepi curate, un grande prato e la piscina, un gradino più in basso rispetto al giardino. Dentro, le travi di legno restano a vista nel soggiorno, in cucina e nella camera ricavata nel sottotetto, con un piccolo soppalco affacciato sulle scale.",
+                "La classe G dipende dagli infissi a vetro singolo e dalla caldaia a gasolio: per migliorarla serve un intervento importante, che però non tocca l’architettura. Il terreno, novemila metri quadri, è soprattutto prato e alberi ad alto fusto."
+            ]
+        },
+        "masseria-degli-ulivi": {
+            "summary": "Una masseria fortificata del Seicento, con la torre ancora in piedi e otto ettari di ulivi secolari intorno.",
+            "description": [
+                "La torre di avvistamento è la parte più antica; il corpo basso intorno alla corte fu aggiunto nel Settecento. Il restauro, finito nel 2020, ha ricavato nove camere con bagno, pensate per una famiglia numerosa o per un’attività ricettiva.",
+                "Gli ulivi sono circa ottocento, alcuni con più di trecento anni, e l’olio oggi viene venduto a un frantoio della zona. Nella corte c’è una piscina in pietra, nascosta dietro il muro di cinta.",
+                "La classe B si deve al fotovoltaico sul tetto delle ex stalle e alla pompa di calore."
+            ]
+        },
+        "casa-della-limonaia": {
+            "summary": "Una villa del Settecento con il giardino all’italiana e una limonaia ad archi, dove d’inverno si ritirano i vasi di agrumi.",
+            "description": [
+                "Il giardino è piccolo, quattromila metri quadri, ma è rimasto quello del disegno originale: siepi di bosso, vialetti di ghiaia, una vasca al centro e centoventi vasi di limoni che da ottobre ad aprile stanno nella limonaia.",
+                "La villa è stata restaurata a più riprese ed è abitabile subito. Al piano terra le sale si aprono una dopo l’altra verso il giardino; al primo piano ci sono le camere, con i soffitti a volta."
+            ]
+        },
+        "mulino-del-rio": {
+            "summary": "Un mulino ad acqua del Settecento diventato casa, con la ruota e le macine rimaste al loro posto, lungo un torrente che scorre tutto l’anno.",
+            "description": [
+                "Le macine sono rimaste al piano terra, nel soggiorno, e la ruota gira ancora: una piccola turbina produce parte dell’energia della casa. Il resto lo fa una pompa di calore, e con l’isolamento dall’interno la casa è arrivata in classe A2.",
+                "I due ettari e mezzo di terreno seguono il torrente: un prato vicino alla casa, poi ontani e noccioli fino al confine."
+            ]
+        },
+        "villa-del-pioppeto": {
+            "summary": "Una villa dei primi del Novecento, con una loggia coperta di edera, un laghetto con un piccolo ponte e un pergolato di glicine in giardino.",
+            "description": [
+                "La loggia corre lungo tutto il piano terra, sotto le camere con i balconi; intorno, un grande prato con pioppi e cedri arriva fino al laghetto, attraversato da un piccolo ponte.",
+                "Dentro, le travi di legno sono lasciate a vista quasi ovunque — nel soggiorno, con il camino, in cucina e nelle camere, una delle quali si apre con porte a vetri ad arco sul terrazzo.",
+                "Il pergolato di glicine, vicino al laghetto, è il punto più fresco del giardino d’estate. La piscina è appena oltre il prato, tra i salici."
+            ]
+        }
+    },
+    "photos": {
+        "casa-1-1": "La casa vista dall’uliveto, con la piscina in primo piano",
+        "casa-1-2": "Vista dall’alto della casa tra gli ulivi e il bosco",
+        "casa-1-6": "Il soggiorno, con il camino e le travi a vista",
+        "casa-1-4": "La sala da pranzo, con l’arco in mattoni verso la cucina",
+        "casa-1-5": "Una delle camere, con il pavimento in cotto",
+        "casa-1-3": "Uno dei bagni",
+        "casa-13-1": "La villa vista dal giardino, con le vetrate ad arco del piano terra",
+        "casa-13-2": "La piscina interna, riscaldata",
+        "casa-13-3": "La cucina, rifatta di recente",
+        "casa-13-4": "Uno dei bagni",
+        "casa-13-5": "Il soggiorno, aperto sulla sala da pranzo e sul giardino",
+        "casa-13-6": "Una delle camere, con le porte ad arco sul terrazzo",
+        "casa-8-1": "La tenuta vista dall’alto, con il vigneto e la piscina",
+        "casa-8-2": "Il vigneto che scende verso valle",
+        "casa-8-3": "La casa padronale e la piscina, viste da vicino",
+        "casa-8-4": "Il soggiorno, con le vetrate ad arco sulla campagna",
+        "casa-8-5": "Una delle camere, con vista sulle colline",
+        "casa-8-6": "La sala da pranzo, con il camino",
+        "casa-4-1": "La casa, con la scala esterna",
+        "casa-4-2": "La piscina, tra le siepi",
+        "casa-4-3": "Una delle camere",
+        "casa-4-4": "Il soggiorno, con l’arco in mattoni e la vetrata sul giardino",
+        "casa-4-5": "La cucina",
+        "casa-4-6": "La sala da pranzo",
+        "casa-6-1": "La villa tra gli alberi, con la piscina e il pannello solare",
+        "casa-6-2": "Vista dall’alto, con il giardino in terrazze",
+        "casa-6-3": "Il porticato della piscina",
+        "casa-6-4": "La cucina",
+        "casa-6-5": "Il soggiorno, con lo scalone",
+        "casa-6-6": "Una delle camere, con le porte ad arco sul terrazzo",
+        "casa-11-1": "La casa vista dall’alto, tra i campi",
+        "casa-11-2": "La casa, con gli scuri verdi",
+        "casa-11-3": "Il portico, apparecchiato per pranzare all’aperto",
+        "casa-11-4": "Una delle camere",
+        "casa-11-5": "Il soggiorno, con l’arco in mattoni",
+        "casa-11-6": "La cucina",
+        "casa-2-1": "La cascina vista dall’alto, con la piscina e i campi intorno",
+        "casa-2-2": "Il retro della casa, con il portico e la scala esterna",
+        "casa-2-3": "Una delle camere",
+        "casa-2-4": "La sala giochi, con il biliardo",
+        "casa-2-5": "La cucina",
+        "casa-2-6": "Il soggiorno",
+        "casa-5-1": "La villa vista dal giardino, con la piscina",
+        "casa-5-2": "Il porticato con vista sul mare",
+        "casa-5-3": "Il forno a legna sotto il porticato",
+        "casa-5-4": "La cucina",
+        "casa-5-5": "La sala da pranzo, con vista sul mare",
+        "casa-5-6": "Una delle camere",
+        "casa-9-1": "La casa tra gli alberi",
+        "casa-9-2": "Il terrazzo, con il piccolo tabernacolo in pietra",
+        "casa-9-3": "La piscina, vista dall’alto, tra i salici",
+        "casa-9-4": "La cucina, a vista sul soggiorno",
+        "casa-9-5": "Il soggiorno",
+        "casa-9-6": "Una delle camere, con vista sul bosco",
+        "casa-12-1": "La villa, vista dal giardino",
+        "casa-12-2": "Il gazebo in giardino, apparecchiato per pranzare all’aperto",
+        "casa-12-3": "La piscina, in basso rispetto al giardino",
+        "casa-12-4": "Il soggiorno",
+        "casa-12-5": "Una delle camere, sotto il tetto",
+        "casa-12-6": "La cucina",
+        "casa-10-1": "La masseria, con le mura fortificate e il forno esterno",
+        "casa-10-2": "La piscina, vista dall’alto",
+        "casa-10-3": "Il terrazzo, con vista sulla vallata",
+        "casa-10-4": "La cucina, con il bancone in mattoni",
+        "casa-10-5": "Una delle nove camere",
+        "casa-10-6": "Il salone, con il grande arco in mattoni",
+        "casa-7-1": "La villa, con il giardino all’italiana in terrazze",
+        "casa-7-2": "La piscina, tra gli ulivi",
+        "casa-7-3": "Il salone, con il camino in pietra",
+        "casa-7-4": "Una delle camere",
+        "casa-7-5": "La limonaia, allestita come sala da pranzo",
+        "casa-7-6": "La cucina",
+        "casa-3-1": "La casa, con il torrente sullo sfondo",
+        "casa-3-2": "La piscina",
+        "casa-3-3": "Il fienile accanto alla casa",
+        "casa-3-4": "La cucina",
+        "casa-3-5": "La sala da pranzo",
+        "casa-3-6": "Una delle camere, con la testata ricavata da una vecchia porta",
+        "casa-14-1": "La villa, vista dal giardino",
+        "casa-14-2": "La piscina, tra i salici",
+        "casa-14-3": "Il pergolato di glicine, con il laghetto sullo sfondo",
+        "casa-14-4": "Il soggiorno, con il camino e le travi a vista",
+        "casa-14-5": "La cucina, con le travi a vista",
+        "casa-14-6": "La camera, verso le porte a vetri ad arco sul terrazzo"
+    }
+}

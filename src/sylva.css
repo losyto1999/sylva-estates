@@ -1,0 +1,116 @@
+@import 'tailwindcss' source(none);
+@import '@fontsource-variable/fraunces/opsz.css';
+@import '@fontsource-variable/dm-sans';
+
+@source './';
+
+/* Palette "Bosco notturno e ottone": è l'unico posto in cui compaiono i colori del sito. I nomi
+   sono quelli della specifica e le utility li leggono direttamente (vedi @theme inline). */
+:root {
+    --pietra-chiara: #F3F1EB; /* fondo pagina, testo su fondi scuri */
+    --verde-bosco: #1F3A2E; /* colore primario: hero, card, bottoni, voce attiva */
+    --verde-notte: #142A20; /* hover dei link e dei bottoni verdi */
+    --nero-bosco: #111A15; /* testo principale, sezioni scure, bottoni scuri */
+    --pietra: #E2DDCF; /* superfici chiare, card alternate, barra tab, bordi */
+    --ottone: #B89A5E; /* CTA principali su fondo scuro (testo nero-bosco), focus */
+    --grafite: #373D38; /* paragrafi */
+    --muschio-grigio: #5B5F58; /* testi secondari e metadati */
+    --salvia-chiara: #D8DAD2; /* testo secondario su fondi scuri */
+    --pietra-scura: #CCC8B8; /* sfondo immagini durante il caricamento */
+    --bianco: #FFFFFF; /* card bianche */
+
+    /* Margine laterale della pagina. */
+    --margine: 48px;
+}
+
+@media (width <= 640px) {
+    :root {
+        --margine: 20px;
+    }
+}
+
+/* Demo aperta dal portfolio: <html data-portfolio-back> (vedi portfolio/fromPortfolio.ts). Le classi
+   con back: lasciano spazio alla pillola fissa "torna al portfolio" in alto a sinistra. */
+@custom-variant back (&:where([data-portfolio-back] *));
+
+@theme {
+    /* Niente palette di Tailwind: un bg-white o un text-slate-900 scritti per sbaglio non producono stile. */
+    --color-*: initial;
+
+    /* Fraunces (asse opsz automatico) per titoli, nomi delle ville, prezzi e numeri grandi; DM Sans per il resto. */
+    --font-display: 'Fraunces Variable', Georgia, serif;
+    --font-sans: 'DM Sans Variable', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+@theme inline {
+    --color-pietra-chiara: var(--pietra-chiara);
+    --color-verde-bosco: var(--verde-bosco);
+    --color-verde-notte: var(--verde-notte);
+    --color-nero-bosco: var(--nero-bosco);
+    --color-pietra: var(--pietra);
+    --color-ottone: var(--ottone);
+    --color-grafite: var(--grafite);
+    --color-muschio-grigio: var(--muschio-grigio);
+    --color-salvia-chiara: var(--salvia-chiara);
+    --color-pietra-scura: var(--pietra-scura);
+    --color-bianco: var(--bianco);
+}
+
+/* Il riferimento è il desktop a 1440px: le classi senza prefisso hanno i valori della specifica,
+   tablet: (≤1024px) e mobile: (≤640px) li adattano. Ognuna è definita dopo la più larga, così vince
+   su di lei. narrow: (<375px) serve solo al logo, perché stia accanto al selettore di lingua. */
+@custom-variant tablet (@media (width <= 1024px));
+@custom-variant mobile (@media (width <= 640px));
+@custom-variant narrow (@media (width < 375px));
+
+/* Pillola: bottoni, badge e tab. */
+@utility pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 999px;
+    white-space: nowrap;
+}
+
+@layer base {
+    /* Le sezioni raggiunte con un'ancora (#domande) non finiscono sotto l'header sticky:
+       logo e nav sono alti 142px su desktop, 126px su mobile. */
+    html {
+        scroll-padding-top: 160px;
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+        html {
+            scroll-behavior: smooth;
+        }
+    }
+
+    .sylva-root {
+        background-color: var(--pietra-chiara);
+        color: var(--nero-bosco);
+        font-family: var(--font-sans);
+    }
+
+    /* Titoli in Fraunces, nel colore del blocco in cui stanno. */
+    .sylva-root :is(h1, h2, h3) {
+        font-family: var(--font-display);
+    }
+
+    /* Vale per i link senza un colore proprio: le utility (card, bottoni, nav) vincono sul layer base. */
+    .sylva-root a {
+        color: var(--verde-bosco);
+    }
+
+    .sylva-root a:hover {
+        color: var(--verde-notte);
+    }
+
+    .sylva-root :focus-visible {
+        outline: 2px solid var(--ottone);
+        outline-offset: 3px;
+    }
+
+    .sylva-root img {
+        background-color: var(--pietra-scura);
+    }
+}
